@@ -1,7 +1,7 @@
 
 clean:
 	@echo "Building production.\n\nCleaning previous bundles..."
-	@rm -rf ./dist/app ./dist/public ./dist/*.json ./dist/*.log ./dist/*.js
+	@rm -rf ./dist/app ./dist/public ./dist/*.json ./dist/*.log ./dist/*.js ./dist/Procfile
 
 webpack:
 	@echo "Packing..."
