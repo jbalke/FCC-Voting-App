@@ -1,13 +1,15 @@
 {
-  "name": "clementinejs_react",
-  "version": "1.0.2",
-  "description": "A full-stack app boilerplate for the freeCodeCamp Course.",
+  "name": "fcc-voting-app",
+  "version": "1.0.0",
+  "description": "A full-stack voting app for the freeCodeCamp Course.",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Em-Ant/clementinejs-react-redux"
+    "url": "git+https://github.com/Em-Ant/clementinejs-react-redux.git"
   },
-  "bugs": "https://github.com/Em-Ant/clementinejs-react-redux/issues",
+  "bugs": {
+    "url": "https://github.com/Em-Ant/clementinejs-react-redux/issues"
+  },
   "keywords": [
     "MongoDB",
     "Mongoose",
@@ -67,5 +69,6 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-hot-middleware": "^2.10.0",
     "webpack-node-externals": "^1.2.0"
-  }
+  },
+  "homepage": "https://github.com/Em-Ant/clementinejs-react-redux#readme"
 }

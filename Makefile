@@ -11,4 +11,5 @@ webpack:
 
 build: clean webpack
 	@cp package.json ./dist
+	@cp Procfile ./dist
 	@echo "Done !"
