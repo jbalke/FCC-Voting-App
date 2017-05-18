@@ -4,8 +4,8 @@ node_modules/
 quick_start.sh
 
 # dist
-dist/
-dist/**
+# dist/
+# dist/**
 
 # local database
 mongod
