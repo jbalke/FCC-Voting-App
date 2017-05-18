@@ -17,7 +17,8 @@ export default function (passport) {
   passport.use(new TwitterStrategy({
     consumerKey: configAuth.twitterAuth.consumerKey,
     consumerSecret: configAuth.twitterAuth.consumerSecret,
-    callbackURL: configAuth.twitterAuth.callbackURL,
+    callbackURL: "http://limitless-gorge-69054.herokuapp.com/auth/twitter/callback",
+    //callbackURL: configAuth.twitterAuth.callbackURL,
   }, (token, refreshToken, profile, done) => {
     process.nextTick(() => {
       User.findOne({ 'twitter.id': profile.id }, (err, user) => {
